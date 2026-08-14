@@ -21,7 +21,7 @@ function App() {
     setAnswer("");
 
     try {
-      const response = await fetch("https://askmynotes-backend-linc.onrender.com", {
+      const response = await fetch("https://askmynotes-backend-linc.onrender.com/predict", {
         method: "POST",
 
         headers: {
