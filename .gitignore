@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pkl~
+venv/
+.venv/
+
+# Environment
+.env
+.env.*
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build
+frontend/dist/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

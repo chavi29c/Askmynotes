@@ -17,8 +17,10 @@ services:
 
     container_name: react-fastapi-frontend
 
+    # ports:
+    #   - "5173:5173"
     ports:
-      - "5173:5173"
+      - "5173:80"
 
     volumes:
       - ./frontend:/app
